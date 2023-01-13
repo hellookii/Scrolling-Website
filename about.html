@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Website Bengkel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link  href="https://fonts.googleapis.com?css2?family=Poppins:wght@100;200;300;400;500;600;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About US</h1>
+    </section>
+
+    <!------ konten about us ------->
+
+    <section class="aboutmee">
+        <div class="row">
+            <div class="about-col">
+                <h1>Tentang Kami</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fugiat ipsam amet, consequatur veritatis voluptatum sapiente quasi rerum dicta fugit quidem, blanditiis explicabo nostrum et? Autem repellendus harum voluptates beatae?</p>
+                <a href="" class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="about.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!--footer-->
+
+    <section class="footer">
+        <h4>Tentang Kami</h4>
+        <p>Dirancang Untuk Memudahkan Pengguna Motor Untuk Menemukan Bengkel. <br> Didefinisikan Untuk Repair Motor, Perbaikan Kerusakan Motor Dalam Fisik Tidak Fatal, Kepuasan Mu Menjadi Prioritasku <i class="fa fa-heart-o"></i>. </p>
+        <div class="icons">
+            <i class="fa fa-whatsapp"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-whatsapp"></i>
+        </div>
+        <p>@2022 Design By M.Rizky.A</p>
+    </section>
+
+    <!------ javascripttt buat togel ------>
+
+    <script>
+
+        var navlinks = document.getElementById('navlinks');
+
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>

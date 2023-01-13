@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ardillah</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link  href="https://fonts.googleapis.com?css2?family=Poppins:wght@100;200;300;400;500;600;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact US</h1>
+    </section>
+
+    <!------ konten contact us ------->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d548.1580324778902!2d106.84054405625139!3d-6.135721812677916!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5e1301a7127%3A0x63032f0a479c9590!2sArdillah%20motor!5e0!3m2!1sid!2sid!4v1671212686215!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Jl. Waspada Raya 1, RT.9/RW.10, Pademangan Barat, Kec. Pademangan.</h5>
+                        <p>Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14420</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+62 896-6337-5936</h5>
+                        <p>Informasi Lebih Lanjut</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>ryassianipar@gmail.com</h5>
+                        <p>Masukan Pertanyaan Anda</p>
+                    </span>
+                </div>
+            </div>
+<div class="contact-col">
+
+    <form action="https://formsubmit.co/el/toxuxa" method="POST">
+         <input type="text" name="name" placeholder="Masukan Nama Anda" required>
+         <input type="email" name="email" placeholder="Masukan Email Anda" required>
+         <input type="text" name="subject" placeholder="Masukan Judul Anda" required>
+         <textarea rows="8" placeholder="Pesan Anda" required></textarea>
+         <button type="submit" class="hero-btn red-btn">Kirim Pesan</button>
+    </form>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <!--footer-->
+
+    <section class="footer">
+        <h4>Tentang Kami</h4>
+        <p>Dirancang Untuk Memudahkan Pengguna Motor Untuk Menemukan Bengkel. <br> Didefinisikan Untuk Repair Motor, Perbaikan Kerusakan Motor Dalam Fisik Tidak Fatal, Kepuasan Mu Menjadi Prioritasku <i class="fa fa-heart-o"></i>. </p>
+        <div class="icons">
+            <i class="fa fa-whatsapp"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-whatsapp"></i>
+        </div>
+        <p>@2022 Design By M.Rizky.A</p>
+    </section>
+
+    <!------ javascripttt buat togel ------>
+
+    <script>
+
+        var navlinks = document.getElementById('navlinks');
+
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
